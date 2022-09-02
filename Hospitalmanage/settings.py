@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-xwq6(05@6$z1m86ft=$c@9lxpgw^u3m&c7vd2uwtz7j8)!7#e0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','trucare-hospitalmanagement.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1','trucare-hospitalmanagement.herokuapp.com']
 
 
 # Application definition
