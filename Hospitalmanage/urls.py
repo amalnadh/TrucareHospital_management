@@ -25,6 +25,6 @@ urlpatterns = [
     re_path('',include('home.urls')),
 
 
-    url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
-    url(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
+    re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
+    re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
               ] +static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
